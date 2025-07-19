@@ -1,0 +1,21 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="mainGradient" cx="50%" cy="50%" r="80%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FF00FF;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#FF3399;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#CC33FF;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#6633FF;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#0066FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000033;stop-opacity:1" />
+    </radialGradient>
+
+    <linearGradient id="overlayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF00CC;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#6600FF;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#000066;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#mainGradient)" />
+  <rect x="0" y="0" width="400" height="400" fill="url(#overlayGradient)" />
+</svg>

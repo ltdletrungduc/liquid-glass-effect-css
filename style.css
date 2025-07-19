@@ -1,0 +1,43 @@
+.section {
+  min-height: 100vh;
+  min-height: 100svh;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.box {
+  width: 20rem;
+  height: 20rem;
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+  filter: drop-shadow(-1rem -1rem 4rem #0000005f);
+  backdrop-filter: url(#displacementFilter);
+}
+
+.box.box-02 {
+  filter: drop-shadow(-0.8rem -1rem 4.6rem #0000005f) drop-shadow(0.8rem 1rem 4.6rem #0000005f);
+  backdrop-filter: url(#displacementFilter02);
+}
+
+.box svg {
+  width: 5rem;
+  height: 5rem;
+}
